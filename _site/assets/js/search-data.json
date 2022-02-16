@@ -1,122 +1,128 @@
 {"0": {
-    "doc": "Guides",
-    "title": "Guides",
-    "content": " ",
-    "url": "http://localhost:4000/docs/guides/Guide.html",
-    "relUrl": "/docs/guides/Guide.html"
-  },"1": {
-    "doc": "Guides",
-    "title": "Edit the documentation",
-    "content": "This page is hosted using GitHub Pages and you can pull the project as repository. The page is implemented using react-static using the markdown template. Thus we can use markdown to write the documentation and React to present it. Getting started . Pull the repository, add or edit a markdown file in docs/. Commit and post your changes to the repository and your changes will be visible on https://viva-con-agua.github.io/. ",
-    "url": "http://localhost:4000/docs/guides/Guide.html#edit-the-documentation",
-    "relUrl": "/docs/guides/Guide.html#edit-the-documentation"
-  },"2": {
     "doc": "About",
     "title": "About",
     "content": "This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com . You can find the source code for Minima at GitHub: jekyll / minima . You can find the source code for Jekyll at GitHub: jekyll / jekyll . ",
-    "url": "http://localhost:4000/about/",
+    "url": "https://viva-con-agua.github.io/about/",
     "relUrl": "/about/"
+  },"1": {
+    "doc": "BasicWebserver",
+    "title": "Basic Webserver",
+    "content": " ",
+    "url": "https://viva-con-agua.github.io/docs/packages/vcago/base_server.html#basic-webserver",
+    "relUrl": "/docs/packages/vcago/base_server.html#basic-webserver"
+  },"2": {
+    "doc": "BasicWebserver",
+    "title": "Setup in server.go",
+    "content": "func main() { e := echo.New() e.HTTPErrorHandler = vcago.HTTPErrorHandler e.Validator = vcago.JSONValidator e.Use(vcago.CORS.Init()) e.Use(vcago.Logger.Init()) ..... appPort := vcago.Config.GetEnvString(\"APP_PORT\", \"n\", \"1323\") e.Logger.Fatal(e.Start(\":\" + appPort)) } . ",
+    "url": "https://viva-con-agua.github.io/docs/packages/vcago/base_server.html#setup-in-servergo",
+    "relUrl": "/docs/packages/vcago/base_server.html#setup-in-servergo"
   },"3": {
-    "doc": "Base",
-    "title": "Base Components",
-    "content": " ",
-    "url": "http://localhost:4000/docs/base#base-components",
-    "relUrl": "/docs/base#base-components"
+    "doc": "BasicWebserver",
+    "title": "edit the .env file",
+    "content": "SERVICE_NAME=default //service name, default default APP_PORT=1323 // default port 1323 LOGGING_OUTPUT=strout // pretty, nats default strout ALLOW_ORIGINS=\"https://example.com,https://api.example.com\" ... ",
+    "url": "https://viva-con-agua.github.io/docs/packages/vcago/base_server.html#edit-the-env-file",
+    "relUrl": "/docs/packages/vcago/base_server.html#edit-the-env-file"
   },"4": {
-    "doc": "Base",
-    "title": "Base",
-    "content": " ",
-    "url": "http://localhost:4000/docs/base",
-    "relUrl": "/docs/base"
+    "doc": "BasicWebserver",
+    "title": "output logger pretty",
+    "content": "{ \"id\": \"\", //not implemented \"service\": \"example\", \"time\": \"2022-02-07T19:50:08.971851362+01:00\", \"remote_ip\": \"127.0.0.1\", \"host\": \"localhost:1323\", \"method\": \"POST\", \"uri\": \"/example\", \"user_agent\": \"Mozilla/5.0 (X11; Linux x86_64; rv:96.0) Gecko/20100101 Firefox/96.0\", \"status\": 500, \"error\": { \"status_message\": \"example error\", \"status_type\": \"internal_error\" }, \"latency\": 2002915, \"latency_human\": \"2.002915ms\", \"byte_in\": \"\", \"byte_out\": \"\", \"modified\": { \"updated\": 1644259808, \"created\": 1644259808 } } . ",
+    "url": "https://viva-con-agua.github.io/docs/packages/vcago/base_server.html#output-logger-pretty",
+    "relUrl": "/docs/packages/vcago/base_server.html#output-logger-pretty"
   },"5": {
-    "doc": "Buttons",
-    "title": "Buttons",
+    "doc": "BasicWebserver",
+    "title": "BasicWebserver",
     "content": " ",
-    "url": "http://localhost:4000/docs/base/buttons.html",
-    "relUrl": "/docs/base/buttons.html"
+    "url": "https://viva-con-agua.github.io/docs/packages/vcago/base_server.html",
+    "relUrl": "/docs/packages/vcago/base_server.html"
   },"6": {
-    "doc": "Form",
-    "title": "Form Components",
-    "content": "Root Element for a Form . &lt;vca-form&gt; content &lt;/vca-form&gt; . Define a field Element . &lt;vca-field label=\"Label\"&gt; content &lt;/vca-field&gt; . Content will display in a row . &lt;vca-field-row&gt; content &lt;/vca-field-row&gt; . ",
-    "url": "http://localhost:4000/docs/forms#form-components",
-    "relUrl": "/docs/forms#form-components"
+    "doc": "DomainDeploy",
+    "title": "Domain Deploy",
+    "content": "git . ",
+    "url": "https://viva-con-agua.github.io/docs/general/domain_deploy.html#domain-deploy",
+    "relUrl": "/docs/general/domain_deploy.html#domain-deploy"
   },"7": {
-    "doc": "Form",
-    "title": "Form",
-    "content": " ",
-    "url": "http://localhost:4000/docs/forms",
-    "relUrl": "/docs/forms"
+    "doc": "DomainDeploy",
+    "title": "Setup",
+    "content": "Get repo . git clone https://github.com/Viva-con-Agua/domain-deploy.git . Create folder named subdomains and change to the repo root directory. mkdir subdomains cd domain-deploy . Create a new .env file and edit: . cp example.env .env subdomains=/path/to/subdomain cert=/path/to/cert . ",
+    "url": "https://viva-con-agua.github.io/docs/general/domain_deploy.html#setup",
+    "relUrl": "/docs/general/domain_deploy.html#setup"
   },"8": {
-    "doc": "Overview",
-    "title": ":droplet: Welcome to the Front-End library for Viva con Agua IT projects :sweat_drops:",
-    "content": " ",
-    "url": "http://localhost:4000/#droplet-welcome-to-the-front-end-library-for-viva-con-agua-it-projects-sweat_drops",
-    "relUrl": "/#droplet-welcome-to-the-front-end-library-for-viva-con-agua-it-projects-sweat_drops"
+    "doc": "DomainDeploy",
+    "title": "Setup Network",
+    "content": "please network create please network info please network delete . ",
+    "url": "https://viva-con-agua.github.io/docs/general/domain_deploy.html#setup-network",
+    "relUrl": "/docs/general/domain_deploy.html#setup-network"
   },"9": {
+    "doc": "DomainDeploy",
+    "title": "Setup Domain",
+    "content": "./please setup . ",
+    "url": "https://viva-con-agua.github.io/docs/general/domain_deploy.html#setup-domain",
+    "relUrl": "/docs/general/domain_deploy.html#setup-domain"
+  },"10": {
+    "doc": "DomainDeploy",
+    "title": "Usage",
+    "content": "Usage: up # setup nginx rm # remove nginx logs # show nginx logs restart # restart nginx add &lt;subdomain&gt; &lt;domain&gt; # add subdomain link &lt;subdomain&gt; # connect subdomain with service edit &lt;subdomain&gt; # edit subdomain help # print help . Add subdomain . Add subdomain to the services.ini file./please add test example.com . Link subdomain . Link service ./please link test Output: subdomain test.example.com is successfully link to docker with IP: 172.4.0.4 . Use the IP as domain_ip in your service. ",
+    "url": "https://viva-con-agua.github.io/docs/general/domain_deploy.html#usage",
+    "relUrl": "/docs/general/domain_deploy.html#usage"
+  },"11": {
+    "doc": "DomainDeploy",
+    "title": "DomainDeploy",
+    "content": " ",
+    "url": "https://viva-con-agua.github.io/docs/general/domain_deploy.html",
+    "relUrl": "/docs/general/domain_deploy.html"
+  },"12": {
+    "doc": "General",
+    "title": "General Informations",
+    "content": " ",
+    "url": "https://viva-con-agua.github.io/docs/general#general-informations",
+    "relUrl": "/docs/general#general-informations"
+  },"13": {
+    "doc": "General",
+    "title": "General",
+    "content": " ",
+    "url": "https://viva-con-agua.github.io/docs/general",
+    "relUrl": "/docs/general"
+  },"14": {
+    "doc": "Overview",
+    "title": "Welcome to the documentation page for Viva con Agua IT projects",
+    "content": " ",
+    "url": "https://viva-con-agua.github.io/#welcome-to-the-documentation-page-for-viva-con-agua-it-projects",
+    "relUrl": "/#welcome-to-the-documentation-page-for-viva-con-agua-it-projects"
+  },"15": {
     "doc": "Overview",
     "title": "Introduction",
-    "content": "#VCA-UI is a front-end library for developing Viva con Agua IT web-interfaces based on Vue.JS . ",
-    "url": "http://localhost:4000/#introduction",
+    "content": " ",
+    "url": "https://viva-con-agua.github.io/#introduction",
     "relUrl": "/#introduction"
-  },"10": {
-    "doc": "Overview",
-    "title": "Features",
-    "content": ". | Based on #Vue | A NPM Workflow * | . ",
-    "url": "http://localhost:4000/#features",
-    "relUrl": "/#features"
-  },"11": {
-    "doc": "Overview",
-    "title": "Environment Support",
-    "content": ". | Supports Modern Browsers and Safari | . ",
-    "url": "http://localhost:4000/#environment-support",
-    "relUrl": "/#environment-support"
-  },"12": {
+  },"16": {
     "doc": "Overview",
     "title": "Version",
-    "content": "#VCA-UI: . ",
-    "url": "http://localhost:4000/#version",
+    "content": "v0.0.1 . ",
+    "url": "https://viva-con-agua.github.io/#version",
     "relUrl": "/#version"
-  },"13": {
+  },"17": {
     "doc": "Overview",
     "title": "Overview",
     "content": " ",
-    "url": "http://localhost:4000/",
+    "url": "https://viva-con-agua.github.io/",
     "relUrl": "/"
-  },"14": {
-    "doc": "Input",
-    "title": "Input Fields",
-    "content": "Input . &lt;vca-input errorMsg=\"error\" v-model=\"value\" :rules=\"$v.value\"&gt; content &lt;/vca-input&gt; . Money Input . &lt;vca-money-input v-model=\"money\" :amount=\"money\" :rules=\"$v.value\" select/&gt; . Edit money datatype. With select the input provide a dropsdown for currency selection. Default the currency will display as label. Money: . money: { amount: 0, //int in cents currency: \"EUR\" //currenry tag } . List of Currency. Use select option for selectable list: . currencies: [ { label: '€', value: 'EUR' } ] . ",
-    "url": "http://localhost:4000/docs/forms/input.html#input-fields",
-    "relUrl": "/docs/forms/input.html#input-fields"
-  },"15": {
-    "doc": "Input",
-    "title": "Input",
-    "content": " ",
-    "url": "http://localhost:4000/docs/forms/input.html",
-    "relUrl": "/docs/forms/input.html"
-  },"16": {
-    "doc": "Layout",
-    "title": "Layout",
-    "content": " ",
-    "url": "http://localhost:4000/docs/base/layout.html",
-    "relUrl": "/docs/base/layout.html"
-  },"17": {
-    "doc": "Navigation",
-    "title": "Navigation Components",
-    "content": " ",
-    "url": "http://localhost:4000/docs/navigation#navigation-components",
-    "relUrl": "/docs/navigation#navigation-components"
   },"18": {
-    "doc": "Navigation",
-    "title": "Navigation",
+    "doc": "Packages",
+    "title": "Packages",
     "content": " ",
-    "url": "http://localhost:4000/docs/navigation",
-    "relUrl": "/docs/navigation"
+    "url": "https://viva-con-agua.github.io/docs/packages",
+    "relUrl": "/docs/packages"
   },"19": {
-    "doc": "Tabs",
-    "title": "Tabs",
-    "content": "Tabs . &lt;vca-tabs&gt; &lt;vca-tab&gt; content &lt;/vca-tab&gt; &lt;/vca-tabs&gt; . ",
-    "url": "http://localhost:4000/docs/tabs",
-    "relUrl": "/docs/tabs"
+    "doc": "VcAgo",
+    "title": "vcago package",
+    "content": "The package contains standard functions that are used in the Viva-con-Agua API services and is on the echo web framework . ",
+    "url": "https://viva-con-agua.github.io/docs/packages/vcago/vcago.html#vcago-package",
+    "relUrl": "/docs/packages/vcago/vcago.html#vcago-package"
+  },"20": {
+    "doc": "VcAgo",
+    "title": "VcAgo",
+    "content": " ",
+    "url": "https://viva-con-agua.github.io/docs/packages/vcago/vcago.html",
+    "relUrl": "/docs/packages/vcago/vcago.html"
   }
 }
