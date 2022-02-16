@@ -9,20 +9,11 @@ has_children: false
 
 ---
 
-# :droplet: Welcome to the Front-End library for Viva con Agua IT projects :sweat_drops:
+# Welcome to the documentation page for Viva con Agua IT projects
 
 ## Introduction
-#VCA-UI is a front-end library for developing Viva con Agua IT web-interfaces based on Vue.JS
 
-## Features
 
-* Based on #Vue
-* A NPM Workflow
-*
-
-## Environment Support
-
-* Supports Modern Browsers and Safari
 
 ## Version
-#VCA-UI: [![npm version](https://badge.fury.io/js/vca-ui.svg)](https://badge.fury.io/js/vca-ui)
+ v0.0.1
