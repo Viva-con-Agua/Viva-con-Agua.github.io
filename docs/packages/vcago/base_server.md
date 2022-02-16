@@ -1,9 +1,11 @@
 ---
 layout: default
 title: BasicWebserver
-parent: VcAgo
+parent: Vcago
 nav_order: 1
 has_children: false
+permalink: docs/packages/vcago/base_server
+
 ---
 
 # Basic Webserver
