@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Documentation of Viva con Agua IT",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "serve": "docsify serve ./docs"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Viva-con-Agua/Viva-con-Agua.github.io.git"
