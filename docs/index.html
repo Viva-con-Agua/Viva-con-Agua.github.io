@@ -38,6 +38,10 @@
         plugins: [
             EditOnGithubPlugin.create("https://github.com/Viva-con-Agua/Viva-con-Agua.github.io/tree/main/docs")
         ],
+        alias: {
+            "/.*/_sidebar.md": "/_sidebar.md",
+            "/.*/_navbar.md": "/_navbar.md",
+        }
     }
 </script>
 <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
