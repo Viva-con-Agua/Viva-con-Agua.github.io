@@ -10,13 +10,41 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.top
+    - toc.integrate
 plugins:
   - search
   - git-revision-date
+markdown_extensions:
+  - admonition
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/viva-con-agua
       name: Viva con Agua on GitHub
+    - icon: material/web
+      link: https://vivaconagua.org
+      name: Viva con Agua Homepage
 extra_css:
   - assets/extra.css
+
+nav:
+  - Home: "index.md"
+  - Tutorials:
+      - Introduction: "tutorials/index.md"
+  - How-To Guides:
+      - Introduction: "how-to-guides/index.md"
+      - Writing Documentation: "how-to-guides/writing_documentation.md"
+  - References:
+      - Introduction: "references/index.md"
+      - Software Architecture: "references/software_architecture.md"
+      - DevOps:
+          - Overview: "references/devops/index.md"
+          - Server Overview: "references/devops/server_overview.md"
+          - Domain Deploy: "references/devops/domain_deploy.md"
+      - Packages:
+          - Overview: "references/packages/index.md"
+          - vcago:
+              - Introduction: "references/packages/vcago/index.md"
+              - Base Server: "references/packages/vcago/base_server.md"
+  - Explanations:
+      - Introduction: "explanations/index.md"

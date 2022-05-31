@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Home
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the documentation page for Viva con Agua IT projects. 
+On this page you, can find information about the general structure and architecture of our applications and servers.
 
-## Commands
+This documentation is generally split into
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [Tutorials](/tutorials/) to get you started.
+- [How-to-Guides](/how-to-guides/) to teach you a specific thing.
+- [References](/references/) where you can lookup details about something you generally already know.
+- [Explanations](/explanations/) for information about **why** we do something the way we do.
