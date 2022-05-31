@@ -9,8 +9,9 @@ theme:
   features:
     - navigation.instant
     - navigation.tabs
+    - navigation.expand
+    - navigation.indexes
     - navigation.top
-    - toc.integrate
 plugins:
   - search
   - git-revision-date
@@ -30,21 +31,21 @@ extra_css:
 nav:
   - Home: "index.md"
   - Tutorials:
-      - Introduction: "tutorials/index.md"
+      - "tutorials/index.md"
   - How-To Guides:
-      - Introduction: "how-to-guides/index.md"
+      - "how-to-guides/index.md"
       - Writing Documentation: "how-to-guides/writing_documentation.md"
   - References:
-      - Introduction: "references/index.md"
+      - "references/index.md"
       - Software Architecture: "references/software_architecture.md"
       - DevOps:
-          - Overview: "references/devops/index.md"
+          - "references/devops/index.md"
           - Server Overview: "references/devops/server_overview.md"
           - Domain Deploy: "references/devops/domain_deploy.md"
       - Packages:
-          - Overview: "references/packages/index.md"
+          - "references/packages/index.md"
           - vcago:
-              - Introduction: "references/packages/vcago/index.md"
+              - "references/packages/vcago/index.md"
               - Base Server: "references/packages/vcago/base_server.md"
   - Explanations:
-      - Introduction: "explanations/index.md"
+      - "explanations/index.md"
