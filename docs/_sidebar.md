@@ -4,3 +4,6 @@
 * [VcA Packages](/packages/)
   * [vcago](/packages/vcago/)
     * [Base Server](/packages/vcago/base_server)
+* [DevOps](/devops/)
+  * [Server Overview](/devops/server_overview)
+  * [Software Architecture](/devops/software_architecture)
