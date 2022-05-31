@@ -23,7 +23,9 @@ We do not have a dedicated tool for *IP Address Management (IPAM)* but this sect
 
 Our Servers naturally have IP addresses of their own that are assigned from the respective hosting provider.
 
-!> Servers that have an IPv6 prefix defined have the whole prefix routed to them by the hosting provider but only have the given address actually allocated.
+!!! info
+
+    Servers that have an IPv6 prefix defined have the whole prefix routed to them by the hosting provider but only have the given address actually allocated.
 
 | Name           |       IPv4       |           IPv6            |
 |----------------|:----------------:|:-------------------------:|
