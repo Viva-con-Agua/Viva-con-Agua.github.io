@@ -41,6 +41,7 @@ nav:
       - DevOps:
           - "references/devops/index.md"
           - Server Overview: "references/devops/server_overview.md"
+          - Server Config & Orchestration: "references/devops/server_config.md"
           - Domain Deploy: "references/devops/domain_deploy.md"
       - Packages:
           - "references/packages/index.md"
