@@ -1,5 +1,6 @@
 site_name: VcA IT Documentation
 repo_url: https://github.com/Viva-con-Agua/Viva-con-Agua.github.io
+edit_uri: edit/main/docs/
 theme:
   name: material
   favicon: assets/favicon.ico
