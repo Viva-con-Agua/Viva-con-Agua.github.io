@@ -29,6 +29,9 @@ plugins:
   - git-revision-date
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
+  - footnotes
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -50,8 +53,10 @@ nav:
   - References:
       - "references/index.md"
       - Software Architecture: "references/software_architecture.md"
+      - Secret Management: "references/secret_management.md"
       - DevOps:
           - "references/devops/index.md"
+          - Continuous Delivery: "references/devops/cd.md"
           - Server Overview: "references/devops/server_overview.md"
           - Server Config & Orchestration: "references/devops/server_config.md"
           - Domain Deploy: "references/devops/domain_deploy.md"
