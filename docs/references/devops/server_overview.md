@@ -8,7 +8,7 @@ on them.
 | Name           | Hoster  |                         Hostname | Kubernetes Role |
 |----------------|---------|---------------------------------:|-----------------|
 | VcA CRM        | Robhost |        `crm.srv.vivaconagua.org` |                 |
-| VcA Stage      | Hetzner |      `stage.srv.vivaconagua.org` |                 |
+| VcA Stage      | Hetzner |      `stage.srv.vivaconagua.org` | Worker          |
 | VcA Pool       | Hetzner |       `pool.srv.vivaconagua.org` | Worker          |
 | VcA Live       | Hetzner |       `live.srv.vivaconagua.org` | Worker          |
 | VcA Backend    | Hetzner |    `backend.srv.vivaconagua.org` |                 |
