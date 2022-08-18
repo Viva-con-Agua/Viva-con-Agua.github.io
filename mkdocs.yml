@@ -34,7 +34,9 @@ markdown_extensions:
   - footnotes
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
   - pymdownx.inlinehilite
 extra:
   social:
