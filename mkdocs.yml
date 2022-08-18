@@ -34,6 +34,8 @@ markdown_extensions:
   - footnotes
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
 extra:
   social:
     - icon: fontawesome/brands/github
