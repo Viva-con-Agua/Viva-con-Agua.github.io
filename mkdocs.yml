@@ -58,9 +58,8 @@ nav:
       - Writing Documentation: "how-to-guides/writing_documentation.md"
       - Deployment:
           - 1. Containers: "how-to-guides/deployment/1_containers.md"
-          - 2. Continuous Interation: "how-to-guides/deployment/2_continuous_integration.md"
-          - 3. Kubernetes: "how-to-guides/deployment/3_kubernetes.md"
-          - 4. Continuous Deployment: "how-to-guides/deployment/4_continuous_deployment.md"
+          - 2. Kubernetes: "how-to-guides/deployment/2_kubernetes.md"
+          - 3. CI/CD: "how-to-guides/deployment/3_ci_cd.md"
   - References:
       - "references/index.md"
       - Software Architecture: "references/software_architecture.md"
@@ -78,3 +77,4 @@ nav:
               - Base Server: "references/packages/vcago/base_server.md"
   - Explanations:
       - "explanations/index.md"
+      - "explanations/kubernetes.md"
