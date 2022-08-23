@@ -112,19 +112,19 @@ This means that such deployment details need to be added now since the *-deploy*
 
 === "Namespace"
 
-We also want to put all resources into their own namespace to keep things organized.
-To do so simply create the manifest file that can be seen below.
-
-!!! info
-
-    See relevent Kubernetes [namespace documentation](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/) and available [namespace manifest fields](https://kubernetes.io/docs/reference/kubernetes-api/cluster-resources/namespace-v1/).
-
-```yaml
-apiVersion: v1
-kind: Namespace
-metadata:
-    name: example-app--dev
-```
+    We also want to put all resources into their own namespace to keep things organized.
+    To do so simply create the manifest file that can be seen below.
+    
+    !!! info
+    
+        See relevent Kubernetes [namespace documentation](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/) and available [namespace manifest fields](https://kubernetes.io/docs/reference/kubernetes-api/cluster-resources/namespace-v1/).
+    
+    ```yaml
+    apiVersion: v1
+    kind: Namespace
+    metadata:
+        name: example-app--dev
+    ```
 
 ### 2.4) Write *dev* kustomization
 
@@ -141,6 +141,7 @@ commonLabels:
 resources:
 - https://github.com/Viva-con-Agua/example-app.git?ref=develop
 - ingress.yml
+- namespace.yml
 
 images: []
 ```
