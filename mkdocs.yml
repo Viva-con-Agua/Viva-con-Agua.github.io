@@ -62,6 +62,7 @@ nav:
           - 1. Containers: "how-to-guides/deployment/1_containers.md"
           - 2. Kubernetes: "how-to-guides/deployment/2_kubernetes.md"
           - 3. CI/CD: "how-to-guides/deployment/3_ci_cd.md"
+          - 4. Auto-Restart failed apps: "how-to-guides/deployment/4_health_readiness_checks.md"
   - References:
       - "references/index.md"
       - Software Architecture: "references/software_architecture.md"
