@@ -1,7 +1,7 @@
 # How to create an donation form with Factory
 
 In order to be able to manage Viva con Agua's online donations, we maintain our own donation form. 
-Each form gets its own ID and so it can be assigned to an campaign. This `donation_form_id` also determines other properties of the form.
+Each form gets its own ID and so it can be assigned to an campaign. This `donation_form_id` also determines other properties.
 For example the slider element or the default amount of an donation. 
 
 A `donation_form_id` also refers to a specific company. This allows us to store the authentication information of the payment service providers in our backend.
@@ -20,6 +20,25 @@ A `donation_form_id` also refers to a specific company. This allows us to store 
 
  TODO
 
-## 2) Create an donation-form
+## 2) Create an donation-form via Factory
 
- TODO
+- Login into [Factory](https://factory.vivaconagua.org)
+- Go to [Formular](https://factory.vivaconagua.org/#/payment-widget) section.
+- Open `Formular Anlegen` 
+
+
+ 
+
+## 3) Setting Param
+
+The `setting` param is used to define other "donation modes".
+
+| key | description                        |
+|-----|------------------------------------|
+| nwt | used for NWT registration payments |
+| v2  | new layout (15.09.22)              |
+
+Example:
+```
+   http://donation-form.vivaconagua.org/#/?donation_form_id=<id>&setting=v2 
+```
