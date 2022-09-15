@@ -65,7 +65,7 @@ nav:
           - 4. Auto-Restart failed apps: "how-to-guides/deployment/4_health_readiness_checks.md"
       - DonationForm:
           - 1. Create: "how-to-guides/donation-form/1_create.md"
-          - 2. Embedding: "how-to-guides/donation-form/2_embedding"
+          - 2. Embedding: "how-to-guides/donation-form/2_embedding.md"
   - References:
       - "references/index.md"
       - Software Architecture: "references/software_architecture.md"
