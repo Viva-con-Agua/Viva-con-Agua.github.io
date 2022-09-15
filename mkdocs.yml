@@ -75,6 +75,7 @@ nav:
           - Domain Deploy: "references/devops/domain_deploy.md"
       - Packages:
           - "references/packages/index.md"
+          - vite-plugin-runtime-config: "references/packages/vite_runtime_config.md"
           - vcago:
               - "references/packages/vcago/index.md"
               - Base Server: "references/packages/vcago/base_server.md"
