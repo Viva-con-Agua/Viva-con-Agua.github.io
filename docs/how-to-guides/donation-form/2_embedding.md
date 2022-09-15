@@ -11,7 +11,7 @@ In the most cases the donation-form will be embedded as an iframe.
     This guide assumes that you have basic html and js skills.
     Get an donation_form_id by create an donation_form.
 
-## Create onmessage
+## 1) Create onmessage
 
 For handling javascript events, we define at first an `window.onmessage` block:
 
@@ -32,7 +32,7 @@ The `navigate` event is used for scroll to the top of the iframe. The `gtm-trigg
 
 ## 2) Resize Iframe
 
-To ensure that the iframe always fits correctly into the page, we need another handler. 
+To ensure that the iframe always fits correctly into the page, we need second script block. 
 ```
 <script type="text/javascript">
     //stores the iframe elemement. 
@@ -59,6 +59,8 @@ To ensure that the iframe always fits correctly into the page, we need another h
     window.addEventListener('message', handleIframeMessage, false)        
 </script>
 ```
+The `iframeElement` variable is for reference the iframe element. At load the `messageThatIframeIsLoaded` function will assign the element to this variable and post an `iframe-loaded` message to the iframe. This will trigger an `iframe-height` event that contains the current size of the iframe element. For handling this kind of events, we define the `handleIframeMessage` function. In case of an  `iframe-height` event, the function will set the height of the iframe to the value of the event data.
+Finally an event listener for `message` is defined for handling the `iframe-height` event.
 
 ## 3) Iframe
 
