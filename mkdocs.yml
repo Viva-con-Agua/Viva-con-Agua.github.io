@@ -67,6 +67,7 @@ nav:
       - "references/index.md"
       - Software Architecture: "references/software_architecture.md"
       - Secret Management: "references/secret_management.md"
+      - NATS: "references/nats.md"
       - DevOps:
           - "references/devops/index.md"
           - Continuous Delivery: "references/devops/cd.md"
