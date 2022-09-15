@@ -1,4 +1,4 @@
-# How to create an donation form with Factory
+# How to create an donation form
 
 In order to be able to manage Viva con Agua's online donations, we maintain our own donation form. 
 Each form gets its own ID and so it can be assigned to an campaign. This `donation_form_id` also determines other properties.
