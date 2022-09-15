@@ -13,3 +13,4 @@ They can also be reached via the navigation tree on the left.
   you are currently reading.
 - The **Deployment** series describes how any application or part of an application can be brought from just source code
   to be deployed on our servers.
+- The **DonationForm** teaches you about set up an donation-form.

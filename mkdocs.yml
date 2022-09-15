@@ -63,6 +63,9 @@ nav:
           - 2. Kubernetes: "how-to-guides/deployment/2_kubernetes.md"
           - 3. CI/CD: "how-to-guides/deployment/3_ci_cd.md"
           - 4. Auto-Restart failed apps: "how-to-guides/deployment/4_health_readiness_checks.md"
+      - DonationForm:
+          - 1. Create: "how-to-guides/donation-form/1_create.md"
+          - 2. Embedding: "how-to-guides/donation-form/2_embedding"
   - References:
       - "references/index.md"
       - Software Architecture: "references/software_architecture.md"
